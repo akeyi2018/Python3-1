@@ -38,7 +38,7 @@ class SonicWave:
 
 if __name__ == "__main__":
 
-    sn = SonicWave(1,4,15,10)
+    sn = SonicWave(17,27,5,10)
     while True:
         dis = sn.reading(0)
         sn.showLED(dis)
